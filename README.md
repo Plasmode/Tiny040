@@ -21,8 +21,8 @@ Tiny040 is a 3.3V SBC based on MC68040V. It is a memmber of 100mmX100mm Tinyxxx 
 The exploratory aspect of Tiny040 is how it bootstrap from CPLD. EPM570 CPLD has 1KB of internal flash that's organized as a 16-bit wide flash. 68040 requires 32-bit wide memory for program execution, so TIny040 explores a scheme to read the first 16-bit flash data into a holding register then read the 2nd 16-bit data and presents the 32-bit data as program for 68040 to execute. The bootstrap program can load & run applications from CF disk.
 
 ### Design Files
-- Schematic
-- Gerber photoplots
+- [Schematic](tiny040_rev0_scm.pdf)
+- [Gerber photoplots](tiny040_rev0_gerber.zip)
 - CPLD design files
 
 ### Software
